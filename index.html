@@ -253,7 +253,33 @@
                                 <h1 class="display-5 fw-bolder text-white mb-2">Оставь бесплатную заявку на <u>автоподбор</u>!</h1>
                                 <p class="lead mb-4">Вы получите, бесплатную консультацию и рекомендации по выбору автомобиля от нашего специалиста!</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start text-center">
-                                    <a class="btn btn-danger btn-lg px-5 me-sm-3" href="#contact">Оставить заявку!</a>
+                                    <button type="button" class="btn btn-danger btn-lg px-5 me-sm-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить заявку!</button>
+                                </div>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="exampleModalLabel">Оставьте заявку!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          </div>
+                                          <div class="modal-body text-dark">
+                                            <form>
+                                              <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Ваша электронная почта:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Ваше сообщение:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                              </div>
+                                            </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                                            <button type="button" class="btn btn-danger">Отправить</button>
+                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
