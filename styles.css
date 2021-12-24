@@ -1,0 +1,158 @@
+header{
+	background-image: url("img/bg.jpg");
+	height: 100vh;
+	background-size: cover;
+}
+
+h1, h2{
+	color: #0b0621;
+}
+
+#logo{
+	width: 100px;
+}
+
+#headerInfo{
+	background-color: #00000070;
+	border-radius: 2%;
+}
+
+.navbar-shrink{
+	background-color:  #0b0621;
+}
+
+#features .card button{
+	background-color: #e7e7e7;
+}
+
+#checkin .t-right{
+	text-align: center;
+}
+
+#checklist{
+	background: rgb(13,9,69);
+	background: linear-gradient(90deg, rgba(13,9,69,1) 0%, rgba(29,22,92,1) 49%, rgba(13,9,69,1) 100%);
+	color: white;
+}
+
+#checklist img{
+	width: 350px;
+	height:  100%;
+	margin: 10px;
+}
+
+#checklist img{
+	width: 350px;
+	height:  100%;
+	margin: 10px;
+}
+
+#checklist .subs{
+	width: 500px;
+}
+
+#check-caption{
+	text-align: right;
+	font-size: 27px;
+}
+
+#features .card-header{
+	background:  none;
+	border:  0;
+}
+
+#features .card-footer{
+	background:  none;
+	border:  0;
+}
+
+#features .card-footer button{
+	width: 100%;
+}
+
+#features .card h2{
+	text-align: center;	
+}
+
+#features .card div{
+	text-align: center;
+}
+
+#features .card i{
+	font-size: 50px;
+	color:  #3b207b;
+}
+
+#features .card p{
+	text-align: justify;
+	text-indent: 25px;
+}
+
+.sml{
+	width: 10px!important;
+}
+
+#headerContent{
+	top:  20%;
+	position: relative;
+}
+
+#contact{
+	background: rgb(13,9,69);
+	background: linear-gradient(90deg, rgba(13,9,69,1) 0%, rgba(29,22,92,1) 49%, rgba(13,9,69,1) 100%);
+	color: white;
+}
+
+#pricing .card-header{
+	height:150px;
+}
+
+#pricing .card-body{
+	height: 630px;
+}
+
+#pricing .card-body i{
+	font-size: 5px;
+}
+
+#testimonials .card{
+	height: 650px;
+}
+
+#testimonials .card-text{
+	text-align: justify;
+	font-size: 14px;
+}
+
+#testimonials .card-text{
+	text-align: justify;
+	font-size: 14px;
+}
+
+#mainNav {
+    transition: background-color 0.2s ease;
+}
+
+#footer{
+	margin:  0;
+	background: rgb(13,9,69);
+	background: linear-gradient(90deg, rgba(13,9,69,1) 0%, rgba(29,22,92,1) 49%, rgba(13,9,69,1) 100%);
+	color: white;
+}
+
+#footer div{
+	justify-content: center;
+	margin:  0 0 0 70px;
+}
+
+
+
+#footer img{
+	width: 150px;
+}
+
+@media (min-width: 992px){
+	#mainNav {
+	    box-shadow: none;
+	}
+}
